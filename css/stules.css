@@ -205,6 +205,9 @@ img {
 .header-page {
   border-bottom: 1px solid #e7e9fc;
   display: block;
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 .header-page .container {
   display: flex;
@@ -331,7 +334,8 @@ img {
   transform: translateY(0);
 }
 
-.projects-cards:hover {
+.projects-cards:hover,
+.projects-cards:focus {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -451,7 +455,8 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-footer-link:hover {
+.icon-footer-link:hover,
+.icon-footer-link:focus {
   background-color: #31d0aa;
 }
 .icon-footer-icon {
